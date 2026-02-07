@@ -1,0 +1,22 @@
+# Anchor / Solana
+target/
+.anchor/
+node_modules/
+test-ledger/
+
+# Build artifacts
+*.so
+*.dylib
+*.dll
+
+# IDL
+# Keep the IDL but ignore build cache
+.anchor/program-logs/
+
+# Node
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
